@@ -2,7 +2,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/BrokenDraft/Oh-my-zsh_deb_
 git clone git@github.com:BrokenDraft/.linux-aliases.git
 cp -r .linux-aliases ~/ ; rm .linux-aliases
 cd ~/ ; cp .zshrc .zshrc-old
-curl https://raw.githubusercontent.com/BrokenDraft/private-deb-fresh-install/main/alias-sync.txt?token=GHSAT0AAAAAABSSG337SQDFRDIKQ3DEMQBSYRUKD6Q >> .zshrc
+curl https://raw.githubusercontent.com/BrokenDraft/private-deb-fresh-install/main/alias-sync.txt >> .zshrc
 source .zshrc
 sudo apt install python3
 sudo apt install tmux
