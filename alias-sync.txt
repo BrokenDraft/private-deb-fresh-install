@@ -3,3 +3,9 @@ if [[ -d ${HOME}/.zsh ]] ; then
 		. ${HOME}/.zsh/$file 
 	done 
 fi
+
+if [[ -d ${HOME}/.linux-aliases ]] ; then 
+	for file in $(ls ${HOME}/.linux-aliases/); do 
+		. ${HOME}/.linux-aliases/$file 
+	done 
+fi
